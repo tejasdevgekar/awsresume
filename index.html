@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<title>Cloud resume project</title>
+  <style>
+
+
+    h1 {
+      color: cyan;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    img {
+      border: 1px solid cyan;
+      margin-left: 40%;
+      margin-top: 5%;
+      border-radius: 1px;
+      padding: 5px;
+      width: 300px;
+      border-radius: 70%;
+    }
+
+    img:hover {
+      box-shadow: 0 0 8px 5px rgba(0, 140, 186, 0.5);
+    }
+
+    p {
+      margin-top: 100px;
+      margin-left: 30%;
+      color: black;
+      font-family: verdana;
+      font-size: 15px;
+    }
+
+    /*counter below header*/
+    counter {
+      text-align: center;
+      font-size: 20px;
+    }
+
+    /* Style the header */
+    header {
+      padding: 30px;
+      text-align: center;
+      color: #e8e11a;
+      text-shadow: -1px -1px 0 #6a07b5, 1px -1px 0 #6a07b5, -1px 1px 0 #000, 1px 1px 0 #6a07b5;
+      font-size: 30px
+    }
+
+    /* Container for flexboxes */
+    section {
+      display: -webkit-flex;
+      display: flex;
+    }
+
+    /* Style the navigation menu */
+    imgsec {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+
+    }
+
+    /* Style the list inside the menu */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+    /* Style the content */
+    article {
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+
+    /* Style the footer */
+    footer {
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+     .website-counter {
+
+    height: 50px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+    }
+
+
+
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+      section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+  </style>
+  <header><b>Resume Tejas Devgekar</b></header>
+   <script defer src="counter.js"></script>
+  <div style="color:white;">Website visit count:</div>
+    <div class="website-counter"></div>
+
+
+</head>
+<body>
+<style>
+body {
+  background-image: url('https://aws-resumeproject.s3.ap-south-1.amazonaws.com/wp6884791-abstract-light-hd-wallpapers.jpg');
+}
+</style>
+<section>
+
+  <imgsec>
+    <img src="profile.jpg" alt="profile img in S3">
+  </imgsec>
+  <artcile>
+
+    <p>this web page is hosted on EC2.not yet atleast
+
+      tools used in this resume:
+      aws:s3, html, javascript
+    </p>
+    </article>
+
+</section>
+
+<footer>
+  <nav ul>yello</nav ul>
+<nav ul><pre>yellow lets see,
+  if indentation is preserved</pre></nav ul>
+
+
+</footer>
+
+
+
+</body>
+</html>
